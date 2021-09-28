@@ -18,17 +18,19 @@
             <div class="col-4">
                 <div class="mb-3">
                     <label for="form-label">Nombre</label>
-                    <input id="inp-" type="text" class="form-control" placeholder="ingrese nombre">
+                    <input id="inp-1" type="text" class="form-control" placeholder="ingrese nombre">
                 </div>
                 <div class="mb-3">
                     <label for="form-label">Apellido</label>
-                    <input id="inp-" type="text" class="form-control" placeholder="ingrese apellido">
+                    <input id="inp-2" type="text" class="form-control" placeholder="ingrese apellido">
                 </div>
                 <div class="mb-3">
                     <label for="form-label">DNI</label>
-                    <input id="inp-" type="number" class="form-control" placeholder="ingrese dni">
+                    <input id="inp-3" type="number" class="form-control" placeholder="ingrese dni">
                 </div>
+                <input type="hidden"  id="inp-4">
                 <button onclick="guardarCliente()" class="btn btn-success">Guardar</button>
+                <button onclick="actualizarCliente()" class="btn btn-success">Actualizar</button>
             </div>
             <div class="col-8">
                 <table class="table">
